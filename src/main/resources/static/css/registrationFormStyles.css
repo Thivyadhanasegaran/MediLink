@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header {
+	background-color: #007BFF;
+	color: white;
+	text-align: center;
+	padding: 1.5rem;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	padding: 20px;
+	margin-top: 125px;
+}
+
+.register-container {
+	background: white;
+	padding: 2.5rem;
+	border-radius: 8px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+	max-width: 500px;
+	width: 100%;
+	text-align: left;
+	margin-top: 12px;
+}
+
+.register-container h2 {
+	margin-top: 0;
+	color: #333;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 1.25rem;
+}
+
+h2 {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.75rem;
+	color: #333;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="date"], select {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 1rem;
+}
+
+button {
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	padding: 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 1.1rem;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	margin-bottom: 1.25rem;
+}
+
+.success {
+	color: green;
+	font-weight: bold;
+	margin-bottom: 1.25rem;
+}
+
+a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.links {
+	margin-top: 1rem;
+}
+
+.links a {
+	display: block;
+	margin-top: 0.5rem;
+}
+
+.header img {
+	vertical-align: middle;
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+}
