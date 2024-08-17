@@ -35,12 +35,17 @@ The proposed NEU Student Healthcare Management System will tackle these issues w
 
 • **Steps:**
   1. **Login Form:**
+
      • Users enter their username and password.
+
      • **Login Button:** To submit the login form.
+
      • **Register Link:** If users don’t have an account, they can click on a Register link to navigate to the registration page.
   2. **Registration Form:**
+
      • Users enter their username, password, confirm password, email address, and personal details. 
      • They select their role from a dropdown or radio buttons (Student, Doctor).
+     
      • **Register Button:** To submit the registration form. After clicking the Register button, the page automatically redirects to the login page, allowing users to log in with their newly created account.
 
 ### 2. User Record Management
